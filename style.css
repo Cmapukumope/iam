@@ -31,7 +31,8 @@ body {
 
 .wrap {
     /* max-width: 1920px; */
-    min-width: 1920px;
+    /* min-width: 1920px; */
+    width: 1920px;
     margin: 0 auto;
     /* outline: 1px solid red; */
     /* padding: 0 15px; */
@@ -84,7 +85,7 @@ header {
     /* min-width: 1920px; */
     width: 1920px;
     min-height: 1079px;
-    background-image: url(./img/promo_bgi_v1.jpg);
+    background-image: url(img/promo_bgi_v1.jpg);
     background-repeat: no-repeat;
     background-position-y: -19px;
     display: flex;
@@ -185,10 +186,6 @@ header {
 .services {
     /* min-width: 1920px; */
     width: 1920px;
-    min-height: 1079px;
-    background-color: blue;
-}
-.test1 {
-    height: 363px;
-    width: 800px;
+    min-height: 1348px;
+    background-image: url(img/serveces_bgi.jpg);
 }
