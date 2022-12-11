@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* transition: 0.7s ease-in-out all; */
+    transition: 0.7s ease-in-out all;
 }
 
 body {
@@ -31,9 +31,8 @@ body {
 }
 
 .wrap {
-    /* max-width: 1920px; */
-    /* min-width: 1920px; */
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     margin: 0 auto;
     /* outline: 1px solid red; */
     /* padding: 0 15px; */
@@ -49,7 +48,7 @@ body {
 
 @media (max-width: 1920px){
     .header {
-        display: none;
+        width: 100%;      
     }
 }
 
@@ -83,35 +82,57 @@ body {
     margin-right: 157px;
 }
 
+@media (max-width: 1920px){
+    .feed-search-cont{
+        margin-right: 2%;
+    }
+}
+
 .feed-search-cont>ul>li {
     padding: 17px;
     display: inline-block;
 }
-
+/* --------------Промо------------- */
+/* --------------Промо------------- */
+/* --------------Промо------------- */
 .promo {
-    /* min-width: 1920px; */
-    width: 1920px;
-    min-height: 1079px;
+    /* height: 1079px; */
     background-image: url(img/promo_bgi_v1.jpg);
     background-repeat: no-repeat;
     background-position-y: -19px;
+    background-size: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
+    gap: 99px;
+}
+
+@media (max-width: 1920px){
+    .promo{
+        /* width: 100%;
+        background-size: 100%;
+        height: 100%; */
+    }
 }
 
 .promo-wrap {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .promo-nav {
     display: flex;
     height: 110px;
-    margin-top: 13%;
-    margin-right: 13%;
+    margin-top: 2%;
+    margin-right: 2%;
 
+}
+@media(max-width:1920px){
+    .promo-nav{
+        /* margin-right: 2%; */
+    }    
 }
 
 .promo-nav>ul {
@@ -141,25 +162,43 @@ body {
 }
 
 .promo-slider-up {
-    width: 800px;
-    height: 363.63px;
+    /* width: 800px; */
+    width: 42%;
+    max-width: 800px;
+    /* height: 363.63px; */
+
     margin-top: 37px;
     display: flex;
     overflow: hidden;
 }
 
+
+
+.promo-slider-up>img{
+    width: 100%;
+
+}
+
+
 .promo-slider-up-cube {
     position: absolute;
+
+}
+@media (max-width: 1905px){
+    .promo-slider-up-cube {
+        display: none;
+    }
 }
 
 .promo-slider-down {
     display: flex;
     justify-content: flex-start;
-    height: 578.05px;
+    
     width: 84.25%;
     /* background-color: yellow; */
     z-index: 100;
 }
+
 
 .promo-slider-down-cont {
     width: 100%;
@@ -174,7 +213,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+@media (max-width: 1920px){
+    .promo-slider-down-1s{
+        height: 100%;
+    }
 }
 
 .promo-slider-down-1s>span {
@@ -193,12 +237,10 @@ body {
 }
 
 .services {
-    /* min-width: 1920px; */
-    width: 1920px;
-    min-height: 1348px;
+    
+    /* min-height: 1348px; */
     background-image: url(img/serveces_bgi.jpg);
-    /* display: flex;
-    flex-direction: column; */
+    background-size: 100%;
 }
 
 .services-heading {
@@ -211,19 +253,16 @@ body {
 
 .services-categories {
     list-style-type: none;
-    width: 1274px;
-    height: 846px;
-    /* background-color: aqua; */
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 35px
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 15%;
 }
 
 .services-categories>div {
-    width: 31.5%;
-    height: 47.9%;
+    width: 24.5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -249,7 +288,7 @@ body {
 }
 
 .ourwork {
-    height: 1955px;
+
     background-color: #FF607F;
 }
 
@@ -293,17 +332,24 @@ margin-left: -100px;
     width: 16%;
 }
 
-.ourwork-container {}
+.ourwork-container {
+    margin-bottom: 5%;
+}
 
 .ourwork-container>ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     gap: 3.3px;
+    justify-content: center;
+}
+.ourwork-container>ul>li{
+    width: 24.85%;
 }
 .ourwork-container>ul>li>img{
     filter: grayscale(1);
     transition: 1s;
+    width: 100%;
 }
 .ourwork-container>ul>li>img:hover{
     filter: grayscale(0);
@@ -513,3 +559,4 @@ footer{
 .footer-wrap>div>p{
     width: 45%;
 }
+
