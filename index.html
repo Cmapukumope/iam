@@ -11,11 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="click.js"></script>
     <title>Index</title>
 </head>
 
 <body>
     <header class="header wrap">
+        <a href="index.html">
         <svg class="header_logo" id="header_logo" data-name="header logo" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" width="330" height="157" viewBox="0 0 330 157">
             <defs>
@@ -122,6 +124,7 @@
                 </g>
             </g>
         </svg>
+        </a>
         <nav class="header-nav">
             <ul>
                 <li><a href="#">КОМПАНИЯ</a></li>
@@ -197,9 +200,20 @@
         </div>
         <div class="promo-slider-down">
             <div class="promo-slider-down-cont">
-                <div class="promo-slider-down-1s">
+                <div onclick="kodimg()" class="promo-slider-down-cont-cliker">
+                <div id="cliker1" class="promo-slider-down-1s">
+                    <p></p>
                     <span>Развиваем</span>
                     <span>бренды</span>
+                </div>
+                <div id="cliker2" class=" promo-slider-down-1s1">
+                    <span>Создаем</span>
+                    <span>решения</span>
+                </div>
+                <div id="cliker3" class="promo-slider-down-1s1">
+                    <span>Трансформируем</span>
+                    <span>бизнес</span>
+                </div>
                 </div>
 
                 <img class="promo-slider-down-2s" src="img/promo-slider-down-1.jpg" alt="">
