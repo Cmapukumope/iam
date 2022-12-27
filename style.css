@@ -701,30 +701,87 @@ footer{
 }
 
 .portfolio-wrap {
+    background-color: #fff;
     padding: 0 20%;
     display: flex;
     flex-direction: column;
+    background-image: url(img/portfolio-bgi.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position-y: 700px;
+    
 }
 
 .portfolio-heading {
-    font-size: 76px;
+    /* font-size: 76px; */
     line-height: 1em;
     margin: 1%;
     margin: 7% 0 3% 0;
+    position: relative;
+}
+
+.portfolio-heading-animation-title {
+    font-size: 72px;
+    line-height: 1em;
+    font-weight: 300;
+    margin-left: -25%;
+    text-align: left;
+}
+
+.portfolio-heading-animation {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1000;
+}
+.portfolio-heading-animation:hover{
+    opacity: 1;
+}
+
+.portfolio-heading-animation:hover > 
+.portfolio-heading-animation-l
+ {
+    margin-left: -25%;
+    margin-bottom: 0;
+}
+.portfolio-heading-animation:hover > 
+.portfolio-heading-animation-r
+ {
+    margin-right: -25%;
+    margin-bottom: 0;
 }
 
 
-
+.portfolio-heading-animation-l {
+    display: flex;
+    align-items: center;
+    margin-left: -30%;
+    margin-bottom: -10%;
+}
+.portfolio-heading-animation-r {
+    display: flex;
+    align-items: center;
+    margin-right: -30%;
+    margin-bottom: -10%;
+}
 .portfolio-heading-1 {
     display: flex;
     font-weight: 400;
     font-size: 76px;
     text-align: left;
+    line-height: 1em;
 }
 .portfolio-heading-2 {
     display: flex;
     font-weight: 200;
     text-align: left;
+    font-size: 76px;
+    line-height: 1em;
 }
 .portfolio-avards {
     display: flex;
@@ -818,15 +875,23 @@ footer{
 }
 
 .portfolio-gallery {
-
+    margin-bottom: 30%;
 }
 
 .portfolio-gallery-block {
     list-style-type: none;
     display: flex;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .portfolio-gallery-block > li {
-    background-color: #23a6d5;
-    width: 30%;
+    /* background-color: #23a6d5; */
+    width: 23.5%;
+}
+
+.portfolio-footer-logo {
+    width: 51%;
+    margin: 0 auto;
+    margin-bottom: -20px;
 }
