@@ -11,7 +11,9 @@
         href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="click.js"></script>
+    <link rel="stylesheet" href="sliders.css">
+    
+    
     <title>Index</title>
 </head>
 
@@ -183,41 +185,53 @@
                 </ul>
             </nav>
             <div class="promo-slider-up">
-                <svg class="promo-slider-up-cube" xmlns="http://www.w3.org/2000/svg" width="498.292" height="978.044"
+                <!-- <svg class="promo-slider-up-cube" xmlns="http://www.w3.org/2000/svg" width="498.292" height="978.044"
                     viewBox="0 0 498.292 978.044">
                     <path id="Контур_2720" data-name="Контур 2720" d="M0,0,498.292,463.481V978.044L0,514.563Z"
                         fill="#0d090a" />
-                </svg>
-                <img src="img/promo-slider-up1.jpg" alt="">
-                <img src="img/promo-slider-up2.jpg" alt="">
-                <img src="img/promo-slider-up3.jpg" alt="">
-                <img src="img/promo-slider-up3.jpg" alt="">
-                <img src="img/promo-slider-up3.jpg" alt="">
-
-
+                </svg> -->
+                <div class="slider_one">
+                  <div class="slider-list grab">
+                    
+                    <div class="slider-track">
+                      <div class="slide"><img src="img/promo-slider-up1.jpg" alt=""></div>
+                      <div class="slide"><img src="img/promo-slider-up2.jpg" alt=""></div>
+                      <div class="slide"><img src="img/promo-slider-up3.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>
             </div>
-
         </div>
         <div class="promo-slider-down">
             <div class="promo-slider-down-cont">
+
+                <div class="slider_two">
+                  <div class="slider-list grab">
+                    <div class="slider-track">
+                      <div class="slide">
+
                 <div onclick="kodimg()" class="promo-slider-down-cont-cliker">
-                <div id="cliker1" class="promo-slider-down-1s">
-                    <p></p>
-                    <span>Развиваем</span>
-                    <span>бренды</span>
-                </div>
-                <div id="cliker2" class=" promo-slider-down-1s1">
-                    <span>Создаем</span>
-                    <span>решения</span>
-                </div>
-                <div id="cliker3" class="promo-slider-down-1s1">
-                    <span>Трансформируем</span>
-                    <span>бизнес</span>
-                </div>
+                    <div id="cliker1" class="promo-slider-down-1s">
+                        <p></p>
+                        <span>Развиваем</span>
+                        <span>бренды</span>
+                    </div>
+                    <div id="cliker2" class=" promo-slider-down-1s1">
+                        <span>Создаем</span>
+                        <span>решения</span>
+                    </div>
+                    <div id="cliker3" class="promo-slider-down-1s1">
+                        <span>Трансформируем</span>
+                        <span>бизнес</span>
+                    </div>
                 </div>
 
-                <img class="promo-slider-down-2s" src="img/promo-slider-down-1.jpg" alt="">
-                <img class="promo-slider-down-2s" src="img/promo-slider-down-2.jpg" alt="">
+                      </div>
+                      <div class="slide"><img src="img/promo-slider-down-1.jpg" alt=""></div>
+                      <div class="slide"><img src="img/promo-slider-down-2.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>
 
             </div>
         </div>
@@ -765,6 +779,9 @@
         </div>
     </footer>
 
+    <script src="sliders.js"></script>
+    <script src="slider_two.js"></script>
+    <script src="click.js"></script>
 
 </body>
 

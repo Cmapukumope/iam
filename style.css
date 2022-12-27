@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: 0.7s ease-in-out all;
+    /* transition: 0.7s ease-in-out all; */
 }
 
 body {
@@ -175,8 +175,6 @@ body {
     display: flex;
     overflow: hidden;
 }
-
-
 
 .promo-slider-up>img{
     width: 100%;
