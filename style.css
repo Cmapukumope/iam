@@ -690,3 +690,143 @@ footer{
     width: 45%;
 }
 
+
+/* -------Портфолио-------- */
+/* -------Портфолио-------- */
+/* -------Портфолио-------- */
+/* -------Портфолио-------- */
+
+.portfolio {
+    
+}
+
+.portfolio-wrap {
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-heading {
+    font-size: 76px;
+    line-height: 1em;
+    margin: 1%;
+    margin: 7% 0 3% 0;
+}
+
+
+
+.portfolio-heading-1 {
+    display: flex;
+    font-weight: 400;
+    font-size: 76px;
+    text-align: left;
+}
+.portfolio-heading-2 {
+    display: flex;
+    font-weight: 200;
+    text-align: left;
+}
+.portfolio-avards {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-avards-text{
+    padding-left: 1%;
+}
+
+.portfolio-img{
+    width: 35%;
+    margin: 3% 0;
+}
+
+.portfolio-description {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 20px;
+    color: #707070;
+}
+
+.portfolio-description > li {
+    display: flex;
+}
+
+.portfolio-description-announcement {
+    width: 20%;
+    min-width: 150px;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+.portfolio-description-meaning {
+    font-weight: 400;
+}
+
+.portfolio-about {
+ text-align: left;
+ margin: 5% 0;
+}
+
+.portfolio-about-heading {
+    font-size: 32px;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin-bottom: 2%;
+}
+
+.portfolio-about-p {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1em;
+}
+
+.portfolio-additional {
+ display: flex;
+ flex-direction: column;
+ margin-top: 5%;
+}
+
+.portfolio-additional-heading {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.portfolio-additional-mat {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    gap: 20px;
+}
+
+.portfolio-additional-mat-pre{
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-additional-mat-pre > div {
+    min-width: 50px;
+    display: flex;
+}
+
+.portfolio-additional-mat-pre > div > p {
+    color: #707070;
+}
+
+.portfolio-gallery {
+
+}
+
+.portfolio-gallery-block {
+    list-style-type: none;
+    display: flex;
+}
+
+.portfolio-gallery-block > li {
+    background-color: #23a6d5;
+    width: 30%;
+}
