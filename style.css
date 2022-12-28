@@ -711,20 +711,26 @@ footer{
     background-position-y: 700px;
     
 }
-
+.portfolio-heading-wrap{
+    background-color: #fff;
+   /*  margin: 7% 0 3% 0; */
+    padding: 7% 0 3% 0;
+}
 .portfolio-heading {
     /* font-size: 76px; */
     line-height: 1em;
-    margin: 1%;
-    margin: 7% 0 3% 0;
+    /* margin: 1%; */
+    /* margin: 7% 0 3% 0; */
+    /* padding: 7% 0 3% 0; */
     position: relative;
+    background-color: #fff;
 }
 
 .portfolio-heading-animation-title {
     font-size: 72px;
     line-height: 1em;
     font-weight: 300;
-    margin-left: -25%;
+    margin-left: -20%;
     text-align: left;
 }
 
@@ -746,28 +752,34 @@ footer{
 .portfolio-heading-animation:hover > 
 .portfolio-heading-animation-l
  {
-    margin-left: -25%;
+    margin-left: 5%;
     margin-bottom: 0;
+    
 }
 .portfolio-heading-animation:hover > 
 .portfolio-heading-animation-r
  {
-    margin-right: -25%;
+    margin-right: 5%;
     margin-bottom: 0;
+    
 }
 
 
 .portfolio-heading-animation-l {
     display: flex;
     align-items: center;
-    margin-left: -30%;
+    /* margin-left: -30%; */
     margin-bottom: -10%;
+    
+ 
 }
 .portfolio-heading-animation-r {
     display: flex;
     align-items: center;
-    margin-right: -30%;
+    /* margin-right: -30%; */
     margin-bottom: -10%;
+    
+    justify-content: flex-end;
 }
 .portfolio-heading-1 {
     display: flex;
@@ -775,6 +787,7 @@ footer{
     font-size: 76px;
     text-align: left;
     line-height: 1em;
+    margin-left: 20%;
 }
 .portfolio-heading-2 {
     display: flex;
@@ -782,6 +795,7 @@ footer{
     text-align: left;
     font-size: 76px;
     line-height: 1em;
+    margin-left: 20%;
 }
 .portfolio-avards {
     display: flex;
@@ -897,16 +911,44 @@ footer{
     margin-bottom: -20px;
 }
 
+.service-heading-wrap {
+    padding: 9% 0 7% 0;
+}
+
+.serv-heading-animation {
+    opacity: 1;
+}
+
+.serv-heading-animation:hover > .serv-heading-animation-l {
+    opacity: 1;
+}
+.serv-heading-animation:hover > .serv-heading-animation-r {
+    opacity: 1;
+}
+.serv-heading-animation:hover > .serv-heading-h {
+    margin-left: -20%;
+}
+
+.serv-heading-animation-l {
+    opacity: 0;
+}
+.serv-heading-animation-r {
+    opacity: 0;
+}
 .serv-heading-h {
     font-size: 67px;
     font-weight: 300;
     line-height: 1em;
     text-align: left;
-}
+    margin-left: -26%;
 
+}
+.serv-heading{
+    /* margin-bottom: 10%; */
+}
 .serv-heading-p {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     line-height: 2em;
     text-transform: uppercase;
@@ -920,6 +962,8 @@ footer{
     font-weight: 400;
     line-height: 1em;
     letter-spacing: 1px;
+    margin-bottom: 4%;
+    margin-top: 10%;
 }
 .possibilities-p{
     font-size: 20px;
@@ -929,8 +973,11 @@ footer{
 
 .possibilities-ul{
     list-style-type: none;
+    font-size: 18px;
 }
-
+.possibilities-ul > li {
+    padding: 2% 0;
+}
 .possibilities-ul-svg {
     margin-bottom: 0.6%;
 }
@@ -947,6 +994,7 @@ footer{
 
 .portfolio-awards {
     text-align: left;
+    margin-bottom: 25%;
 }
 .portfolio-awards-cont{
     list-style-type: none;
