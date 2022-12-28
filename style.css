@@ -892,6 +892,89 @@ footer{
 
 .portfolio-footer-logo {
     width: 51%;
+    height: 100%;
     margin: 0 auto;
     margin-bottom: -20px;
+}
+
+.serv-heading-h {
+    font-size: 67px;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: left;
+}
+
+.serv-heading-p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.possibilities {
+    text-align: left;
+}
+.possibilities-heading{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+.possibilities-p{
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.possibilities-ul{
+    list-style-type: none;
+}
+
+.possibilities-ul-svg {
+    margin-bottom: 0.6%;
+}
+
+.possibilities-ul > p {
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+.benefits{
+    text-align: left;
+}
+
+.portfolio-awards {
+    text-align: left;
+}
+.portfolio-awards-cont{
+    list-style-type: none;
+}
+.portfolio-awards-cont > li {
+    display: flex;
+    height: 69px;
+    align-items: center;
+}
+.portfolio-awards-cont-img{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 69px;
+    justify-content: center;
+}
+
+.portfolio-awards-cont-img >svg:nth-child(2){
+    margin-left: -69px;
+}
+.portfolio-awards-cont-text{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1em;
+    margin-left: 5%;
+}
+.portfolio-awards-cont-text > p{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    text-transform: uppercase;
 }
