@@ -107,7 +107,7 @@ body {
     background-image: url(img/promo_bgi_v1.jpg);
     background-repeat: no-repeat;
     background-position-y: -19px;
-    background-size: 100%;
+    /* background-size: 100%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -133,7 +133,7 @@ body {
 .promo-nav {
     display: flex;
     height: 110px;
-    margin-top: 2%;
+    margin-top: 15%;
     margin-right: 2%;
 
 }
@@ -1074,7 +1074,7 @@ footer{
 }
 
 .contacts {
-    background-image: url(/img/portfolio-bgi.jpg);
+    background-image: url(img/portfolio-bgi.jpg);
     height: 100%;
     background-position: 0 0;
 }
@@ -1088,4 +1088,13 @@ footer{
 .contacts-footer-logo{
     width: 30%;
     margin-top: 20%;
+}
+
+.contacts-heading {
+    font-size: 76px;
+    margin-top: 200px;
+    text-align: left;
+    margin-left: 20%;
+    letter-spacing: 10px;
+    font-weight: 400;
 }
