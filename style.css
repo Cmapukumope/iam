@@ -724,13 +724,14 @@ footer{
     /* padding: 7% 0 3% 0; */
     position: relative;
     background-color: #fff;
+    padding: 0 20%;
 }
 
 .portfolio-heading-animation-title {
     font-size: 72px;
     line-height: 1em;
     font-weight: 300;
-    margin-left: -20%;
+    /* margin-left: -20%; */
     text-align: left;
 }
 
@@ -740,7 +741,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 100%;
+    width: 60%;
     height: 100%;
     opacity: 0;
     z-index: 1000;
@@ -764,19 +765,36 @@ footer{
     
 }
 
+.portfolio-heading:hover >
+.portfolio-heading-animation >
+.portfolio-heading-animation-l {
+    opacity: 1;
+    margin-left: -25%;
+}
+.portfolio-heading:hover >
+.portfolio-heading-animation >
+.portfolio-heading-animation-r {
+    opacity: 1;
+    margin-right: -25%;
+}
+.portfolio-heading:hover >
+.portfolio-heading-animation >
+.serv-heading-h {
+    margin-left: 5%;
+}
 
 .portfolio-heading-animation-l {
     display: flex;
     align-items: center;
-    /* margin-left: -30%; */
+    margin-left: -30%;
     margin-bottom: -10%;
-    
+    position: absolute;
  
 }
 .portfolio-heading-animation-r {
     display: flex;
     align-items: center;
-    /* margin-right: -30%; */
+    margin-right: -30%;
     margin-bottom: -10%;
     
     justify-content: flex-end;
@@ -787,7 +805,7 @@ footer{
     font-size: 76px;
     text-align: left;
     line-height: 1em;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .portfolio-heading-2 {
     display: flex;
@@ -795,7 +813,7 @@ footer{
     text-align: left;
     font-size: 76px;
     line-height: 1em;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .portfolio-avards {
     display: flex;
@@ -917,17 +935,21 @@ footer{
 
 .serv-heading-animation {
     opacity: 1;
+    position: relative;
+    width: 100%;
 }
 
-.serv-heading-animation:hover > .serv-heading-animation-l {
+/* .serv-heading-animation:hover > .serv-heading-animation-l {
     opacity: 1;
+    margin-left: -25%;
 }
 .serv-heading-animation:hover > .serv-heading-animation-r {
     opacity: 1;
+    margin-right: -25%;
 }
 .serv-heading-animation:hover > .serv-heading-h {
-    margin-left: -20%;
-}
+    margin-left: 5%;
+} */
 
 .serv-heading-animation-l {
     opacity: 0;
@@ -940,7 +962,7 @@ footer{
     font-weight: 300;
     line-height: 1em;
     text-align: left;
-    margin-left: -26%;
+    /* margin-left: -26%; */
 
 }
 .serv-heading{
