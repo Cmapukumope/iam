@@ -750,7 +750,7 @@ footer{
     opacity: 1;
 }
 
-.portfolio-heading-animation:hover > 
+/* .portfolio-heading-animation:hover > 
 .portfolio-heading-animation-l
  {
     margin-left: 5%;
@@ -763,19 +763,21 @@ footer{
     margin-right: 5%;
     margin-bottom: 0;
     
-}
+} */
 
 .portfolio-heading:hover >
 .portfolio-heading-animation >
 .portfolio-heading-animation-l {
     opacity: 1;
     margin-left: -25%;
+    margin-bottom: 0;
 }
 .portfolio-heading:hover >
 .portfolio-heading-animation >
 .portfolio-heading-animation-r {
     opacity: 1;
     margin-right: -25%;
+    margin-bottom: 0;
 }
 .portfolio-heading:hover >
 .portfolio-heading-animation >
@@ -939,17 +941,6 @@ footer{
     width: 100%;
 }
 
-/* .serv-heading-animation:hover > .serv-heading-animation-l {
-    opacity: 1;
-    margin-left: -25%;
-}
-.serv-heading-animation:hover > .serv-heading-animation-r {
-    opacity: 1;
-    margin-right: -25%;
-}
-.serv-heading-animation:hover > .serv-heading-h {
-    margin-left: 5%;
-} */
 
 .serv-heading-animation-l {
     opacity: 0;
@@ -1025,12 +1016,14 @@ footer{
     display: flex;
     height: 69px;
     align-items: center;
+    margin-bottom: 30px;
 }
 .portfolio-awards-cont-img{
     display: flex;
     flex-direction: row-reverse;
     width: 69px;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio-awards-cont-img >svg:nth-child(2){
@@ -1044,7 +1037,7 @@ footer{
 }
 .portfolio-awards-cont-text > p{
     font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 3%;
+    margin-top: 3px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
