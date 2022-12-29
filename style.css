@@ -28,6 +28,7 @@ body {
     text-align: center;
     list-style-type: none;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    align-items: center;
 }
 
 .wrap {
@@ -44,6 +45,8 @@ body {
     display: flex;
     background-color: #000000;
     justify-content: space-between;
+    position: fixed;
+    z-index: 100000;
 }
 
 .header > a {
@@ -57,7 +60,7 @@ body {
 }
 
 .header_logo {
-    min-width: 330px;
+    width: 161px;
 }
 
 .header-nav {
@@ -110,6 +113,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     gap: 99px;
+    margin-top: 76.57px;
 }
 
 @media (max-width: 1920px){
@@ -584,7 +588,7 @@ margin-left: -100px;
     justify-content: center;
     margin-top: 10%;
     height: 10%;
-    margin-left: 8%;
+    /* margin-left: 8%; */
 }
 
 .feedback-cont>li{
@@ -637,6 +641,7 @@ margin-left: -100px;
 .feedback>iframe:hover{
     filter: grayscale(0);
     transition: 1s;
+    margin-top: 6%;
 }
 
 .feedback>form{
@@ -673,7 +678,7 @@ margin-left: -100px;
 }
 
 footer{
-    height: 419px;
+    height: 341px;
     background-color: #656565;
 }
 
@@ -1066,4 +1071,21 @@ footer{
     margin-top: 3px;
     margin-bottom: 10px;
     text-transform: uppercase;
+}
+
+.contacts {
+    background-image: url(/img/portfolio-bgi.jpg);
+    height: 100%;
+    background-position: 0 0;
+}
+.contacts-p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.contacts-map {
+    height: 600px !important;
+}
+.contacts-footer-logo{
+    width: 30%;
+    margin-top: 20%;
 }
