@@ -135,7 +135,7 @@ body {
     height: 110px;
     margin-top: 15%;
     margin-right: 2%;
-
+    font-family: 'Stem';
 }
 @media(max-width:1920px){
     .promo-nav{
@@ -161,7 +161,7 @@ body {
     width: 218px;
     /* height: 37px; */
     padding: 12px;
-
+    
 }
 
 .promo-nav>ul>li>a {
@@ -248,6 +248,7 @@ body {
     height: 100px; */
     line-height: 100px;
     font-size: 114px;
+    font-family: 'Organetto';
 }
 
 .promo-slider-down-1s>span:first-child {
